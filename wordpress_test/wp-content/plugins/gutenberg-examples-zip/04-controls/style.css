@@ -1,0 +1,221 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+ .wp-block-gutenberg-examples-example-04-controls {
+	color: darkred;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+
+	position: relative;
+	max-width: 1073px !important;
+	width: 1073px;
+	height: 422px;
+
+	background: #c8bdc9;
+	border-radius: 35px;
+}
+
+.frame11{
+	position:relative;
+	/* border-style: solid;
+	border-color: black; */
+	width: 497px;
+	height: 420px;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	}
+	
+	.card-content{
+	  /* card-content */
+	
+	
+	/* Auto layout */
+	/* border-style: solid; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 26px 50px 25px;
+	gap: 50px;
+	
+	width: 576px;
+	height: 422px;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	}
+	
+	.imagewrapper{
+	  height:422px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	/* border:solid;
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	left: 10px;
+	bot: 50px;
+	top: 10px; */
+	
+	} 
+	
+	.imagewrapper img{
+	  width:400px;
+	  height:300px;
+	}
+	
+	.h1wrapper{
+	  /* h3 */
+	
+	
+	width: 476px;
+	height: 72px;
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 72px;
+	/* identical to box height */
+	
+	letter-spacing: -0.02em;
+	
+	/* Neutral 2 */
+	
+	color: #394452;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	}
+
+	.h1wrapper h3{
+		color: black;
+		font-weight: bold;
+	}
+	
+	.pwrapper{
+	  /* paragraph */
+	
+	width: 450px;
+	height: 66px;
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	/* or 22px */
+	
+	
+	/* Neutral 5 */
+	
+	color: #858C94;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	}
+
+	.pwrapper p{
+		color: black;
+	}
+	
+	.divwrapper{
+	  position:relative;
+	  /* div */
+	
+	
+	width: 450px;
+	height: 58px;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	}
+	
+	.input-group{
+	
+	}
+	
+	.forma-input{
+	position: absolute;
+	padding-left: 21px;
+	padding-right: 130px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	
+	background: #F9F9F9;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+	}
+	
+	.forma-input::placeholder{
+	position: absolute;
+	/* width: 73px; */
+	/* height: 20px; */
+	left: 21px;
+	top: calc(50% - 20px/2 + 0.5px);
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	/* identical to box height, or 20px */
+	
+	
+	/* second-text-color */
+	
+	color: #737373;
+	
+	}
+	
+	.forma-btn{
+	  /* input-group-append */
+	
+	color: white;
+	position: absolute;
+	width: 117px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background: #3525E6;
+	border: 1px solid #E6E6E6;
+	border-radius: 0px 5px 5px 28px;
+	}
+
+	.forma-btn:hover {background-color: #1d147d}
+
+	.forma-btn:active {
+		background: #3525E6;
+		
+	  }
+	  
+	  /* .forma-btn:active:after {
+		padding: 0;
+		margin: 0;
+		opacity: 1;
+		transition: 0s
+	  } */

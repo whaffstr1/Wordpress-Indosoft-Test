@@ -1,0 +1,17 @@
+.simple-content-menu {
+    width: 100%;
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+  
+  .simple-content-menu  ul li {
+    display: inline;
+    text-align: center;
+  }
+
+  .simple-content-menu  ul {
+    width: 100%;
+  }
+  
+ 
+  

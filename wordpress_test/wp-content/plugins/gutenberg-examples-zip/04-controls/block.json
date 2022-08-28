@@ -1,0 +1,27 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gutenberg-examples/example-04-controls",
+	"title": "Subscription Section",
+	"icon": "email",
+	"category": "layout",
+	"attributes": {
+		"mediaID": {
+			"type": "number"
+		},
+		"mediaURL": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "src"
+		}
+	},
+	"example": {
+		"attributes": {
+			"mediaURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2ChocolateChipCookies.jpg/320px-2ChocolateChipCookies.jpg"
+		}
+	},
+	"editorScript": "file:./block.js",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css"
+}
